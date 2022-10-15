@@ -15,11 +15,11 @@ module.exports = {
   "features": {
     "storyStoreV7": true
   },
-  // viteFinal: (config, {configType}) => {
-  //   if (configType == 'PRODUCTION'){
-  //     config.base = '/BernardoRh/'
-  //   }
+  viteFinal: (config, {configType}) => {
+    if (configType == 'PRODUCTION'){
+      config.base = '/BernardoRh/'
+    }
 
-  //   return config
-  // }
+    return config
+  }
 }
