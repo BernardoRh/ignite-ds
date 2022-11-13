@@ -42,7 +42,7 @@ export function App() {
           <Checkbox id='remember' />
           <Text size='sm' className='text-gray-200'>Lembrar de mim!</Text>
         </label>
-        <Button type='submit' className='mt-4'>Entrer na Plataforma</Button>
+        <Button type='submit' className='mt-4'>Entrar na Plataforma</Button>
       </form>
       <footer className='flex flex-col items-center gap-3 mt-8'>
         <Text asChild size='sm'>
